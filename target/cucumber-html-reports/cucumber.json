@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Access to the app after make the login.",
+        "description": "",
+        "id": "interview-nicolas-mori;access-to-the-app-after-make-the-login.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I start the android web test with this device \"8575525242395141\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "navigate to this \"https://www.kraken.com\" in the mobile web",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "in the homepage make click in the button to sign in",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "make a success login",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "in the dashboard page make click in the dropdown, and select this coin \"ETH/XBT\"",
+            "match": {},
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "select this option \"Security\" from the menu",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "validate if the values in the menu change",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Case_2A1"
+          }
+        ]
+      }
+    ],
+    "name": "Interview Nicolas Mori",
+    "description": "",
+    "id": "interview-nicolas-mori",
+    "keyword": "Feature",
+    "uri": "TestCaseWithMobileWeb.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Case_2A1"
+      }
+    ]
+  }
+]

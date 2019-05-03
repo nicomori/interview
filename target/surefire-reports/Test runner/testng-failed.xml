@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Test runner]" parallel="tests">
+  <parameter name="parallelStatus" value="Parallel status in off, TestNG definition file."/>
+  <test name="test(failed)" parallel="tests">
+    <parameter name="parallelStatus" value="Parallel status in off, TestNG definition file."/>
+    <classes>
+      <class name="com.krak.AppTest">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- com.krak.AppTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Test runner] -->

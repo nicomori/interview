@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="Interview Nicolas Mori" name="Access to the app after make the login." time="0">
+<skipped><![CDATA[Given I start the android web test with this device "8575525242395141"......undefined
+And navigate to this "https://www.kraken.com" in the mobile web.............undefined
+Then in the homepage make click in the button to sign in....................undefined
+Then make a success login...................................................undefined
+Then in the dashboard page make click in the dropdown, and select this coin "ETH/XBT".undefined
+Then select this option "Security" from the menu............................undefined
+Then validate if the values in the menu change..............................undefined
+]]></skipped>
+</testcase>
+</testsuite>
