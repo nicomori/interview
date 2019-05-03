@@ -12,11 +12,20 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 11511220011,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start the android web test with this device \"8575525242395141\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "8575525242395141",
+                  "offset": 47
+                }
+              ],
+              "location": "Steps.accessTheAndroidWebTest(String)"
+            },
             "matchedColumns": [
               0
             ],
@@ -24,11 +33,20 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 13718178629,
+              "status": "passed"
             },
             "line": 6,
             "name": "navigate to this \"https://www.kraken.com\" in the mobile web",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.kraken.com",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.navigateToSomeUrlInTheMobileWeb(String)"
+            },
             "matchedColumns": [
               1
             ],
@@ -36,29 +54,44 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 7652489795,
+              "status": "passed"
             },
             "line": 7,
             "name": "in the homepage make click in the button to sign in",
-            "match": {},
+            "match": {
+              "location": "StepsKra.bigWaite22r()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 7664823523,
+              "status": "passed"
             },
             "line": 8,
             "name": "make a success login",
-            "match": {},
+            "match": {
+              "location": "StepsKra.bigWaiter333()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4895585262,
+              "status": "passed"
             },
             "line": 9,
             "name": "in the dashboard page make click in the dropdown, and select this coin \"ETH/XBT\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "ETH/XBT",
+                  "offset": 72
+                }
+              ],
+              "location": "StepsKra.bigWaiter4444(String)"
+            },
             "matchedColumns": [
               3
             ],
@@ -66,11 +99,20 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2927474204,
+              "status": "passed"
             },
             "line": 10,
             "name": "select this option \"Security\" from the menu",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Security",
+                  "offset": 20
+                }
+              ],
+              "location": "StepsKra.bigWaiter333333(String)"
+            },
             "matchedColumns": [
               2
             ],
@@ -78,11 +120,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4836462,
+              "status": "passed"
             },
             "line": 11,
             "name": "validate if the values in the menu change",
-            "match": {},
+            "match": {
+              "location": "StepsKra.bigWaiter444444()"
+            },
             "keyword": "Then "
           }
         ],

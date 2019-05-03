@@ -23,7 +23,8 @@ The architecture of the framework is the suggested by selenium, named Page Objec
 
 Mandatories:
 
-parallel
+parallel: 
+
 This framework is prepared to execute farm of devices, or farm of browsers. This is very usefull when you have multiple SO and with different Browsers, or devices to test. In this version of the framework is not activated.
 
 
@@ -38,4 +39,9 @@ To execute the example:
 mvn package -Dparallel=false -Dcucumber.options="--tags @Case_2A1"
 
 
+## Command to execute the appium
+appium --chromedriver-executable [Path to the chromedriver to work with appium at least version 66]
+
+command:
+appium --chromedriver-executable /Users/nicolasmori/Documents/chromedriver
 

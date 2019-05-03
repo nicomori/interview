@@ -15,20 +15,4 @@ public class SelectorBrowser {
 		}
 		return driver;
 	}
-
-	public static WebDriver createDriverWithoutCapabilities(String browser, WebDriver driver) {
-
-//		switch (browser) {
-//		case "chrome":
-//			driver = OpenBrowserChrome.openBowserWithOutCapabilities(driver);
-//			break;
-//		case "chromeEmulationMobile":
-//			driver = OpenBrowserChrome.openBowserWithOutCapabilitiesForEmulateMobile(driver, true);
-//			break;
-//		default:
-//			driver = OpenBrowserChrome.openBowserWithOutCapabilities(driver);
-//			break;
-//		}
-		return driver;
-	}
 }

@@ -7,7 +7,7 @@ import cucumber.api.java.en.Given;
 
 public class Steps extends ParentScenario {
 
-	@Given("I start the android web test with this device 777 \"(.*)?\"")
+	@Given("I start the android web test with this device \"(.*)?\"")
 	public void accessTheAndroidWebTest(String uuid) {
 		startAndroidWebTest(uuid);
 	}
