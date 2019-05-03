@@ -145,32 +145,77 @@ formatter.step({
   "name": "validate if the values in the menu change",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "8575525242395141",
+      "offset": 47
+    }
+  ],
+  "location": "Steps.accessTheAndroidWebTest(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 11511220011,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.kraken.com",
+      "offset": 18
+    }
+  ],
+  "location": "Steps.navigateToSomeUrlInTheMobileWeb(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 13718178629,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "StepsKra.bigWaite22r()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 7652489795,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "StepsKra.bigWaiter333()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 7664823523,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "ETH/XBT",
+      "offset": 72
+    }
+  ],
+  "location": "StepsKra.bigWaiter4444(String)"
+});
+formatter.result({
+  "duration": 4895585262,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Security",
+      "offset": 20
+    }
+  ],
+  "location": "StepsKra.bigWaiter333333(String)"
+});
+formatter.result({
+  "duration": 2927474204,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepsKra.bigWaiter444444()"
+});
+formatter.result({
+  "duration": 4836462,
+  "status": "passed"
 });
 });

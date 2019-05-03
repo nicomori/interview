@@ -44,5 +44,4 @@ public class StepsKra extends ParentScenario {
 		System.out.println("Starting an special browser");
 		startBrowserSpecial(mobile);
 	}
-
 }
